@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog.it</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+</head>
+
+ <header class="p-3 text-bg-dark">
+    <div class="container">
+      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+        <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+          <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
+        </a>
+
+        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+          <li><a href="#" class="nav-link px-2 text-secondary">Home</a></li>
+          <li><a href="all" class="nav-link px-2 text-white">All Blogs</a></li>
+          <li><a href="blog" class="nav-link px-2 text-white">Write a blog</a></li>
+          <li><a href="#" class="nav-link px-2 text-white">Contact Us</a></li>
+          <li><a href="#" class="nav-link px-2 text-white">About</a></li>
+        </ul>
+
+        <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+          <input type="search" class="form-control form-control-dark text-bg-white rounded-lg" placeholder="Search..." aria-label="Search">
+        </form>
+        <div class="text-end">
+          <a href="login"><button type="button" class="btn btn-outline-light me-2">Login</button></a>
+          <a href="register"><button type="button" class="btn btn-warning text-white">Sign-up</button></a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="row flex-lg-row-reverse align-items-center g-5 py-5 px-4 w-100">
+      <div class="col-10 col-sm-8 col-lg-6">
+        <img src="https://cdn.aliedwards.com/images/1af24a72f951c3ba0d9c696703c07c5c0f775f49_original.jpg?1568836811" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+      </div>
+      <div class="col-lg-6">
+        <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Responsive left-aligned hero with image</h1>
+        <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+          <a href="login"><button type="button" class="btn btn-primary btn-lg px-4 me-md-2 text-white bg-slate-900 mt-4">Create a blog</button></a>
+          
+        </div>
+      </div>
+    </div>
+    
+    <div id="carouselExampleCaptions" class="carousel slide w-65 h-50 mx-20">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active h-50">
+          <img src="https://th.bing.com/th/id/OIP.HfqrXYNx5KaAyNsfK3xu9wHaEK?rs=1&pid=ImgDetMain" class="d-block w-100 h-50" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>First slide label</h5>
+            <p>Some representative placeholder content for the first slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item h-50">
+          <img src="https://wallpaperaccess.com/full/210938.jpg" class="d-block w-100 h-50 " alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Second slide label</h5>
+            <p>Some representative placeholder content for the second slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item h-50">
+          <img src="https://miro.medium.com/max/10944/1*S81O15rjKfG-BFdnNC6-GQ.jpeg" class="d-block w-100 h-50 " alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Third slide label</h5>
+            <p>Some representative placeholder content for the third slide.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+
+
+<div class="bg-gray-100 ">
+  <div class="mx-auto max-w-7xl px-4 sm:px-1 lg:px-8">
+    <div class="mx-auto max-w-l py-16 sm:py-24 lg:max-w-none lg:py-12">
+      <h2 class="text-2xl font-bold text-gray-900">Categories</h2>
+
+      <div class="mt-6 space-y-12 lg:grid lg:grid-cols-4 lg:gap-x-6 lg:space-y-0">
+        <div class="group relative mb-4">
+          <div class="relative h-80 w-full overflow-hidden rounded-lg bg-white sm:aspect-h-1 sm:aspect-w-2 lg:aspect-h-1 lg:aspect-w-1 group-hover:opacity-75 sm:h-64">
+            <img src="https://th.bing.com/th/id/OIP.u2bAsUd3lbk4So0TXFC5RQHaHa?rs=1&pid=ImgDetMain" alt="Sports" class="h-full w-full object-cover object-center">
+          </div>
+          <h3 class="mt-6 text-sm text-gray-500">
+            <a href="#">
+              <span class="absolute inset-0"></span>
+              Sports
+            </a>
+          </h3>
+          
+        </div>
+        <div class="group relative mb-4">
+          <div class="relative h-80 w-full overflow-hidden rounded-lg bg-white sm:aspect-h-1 sm:aspect-w-2 lg:aspect-h-1 lg:aspect-w-1 group-hover:opacity-75 sm:h-64">
+            <img src="https://th.bing.com/th/id/OIP.S5iPdVuz-s8D6nFwWd9o3gHaEK?rs=1&pid=ImgDetMain" alt="Cars" class="h-full w-full object-cover object-center">
+          </div>
+          <h3 class="mt-6 text-sm text-gray-500">
+            <a href="#">
+              <span class="absolute inset-0"></span>
+              Cars
+            </a>
+          </h3>
+        
+        </div>
+        <div class="group relative mb-4">
+          <div class="relative h-80 w-full overflow-hidden rounded-lg bg-white sm:aspect-h-1 sm:aspect-w-2 lg:aspect-h-1 lg:aspect-w-1 group-hover:opacity-75 sm:h-64">
+            <img src="https://www.helpguide.org/wp-content/uploads/calories-counting-diet-food-control-and-weight-loss-concept-calorie.jpg" alt="Food" class="h-full w-full object-cover object-center">
+          </div>
+          <h3 class="mt-6 text-sm text-gray-500">
+            <a href="#">
+              <span class="absolute inset-0"></span>
+              Food
+            </a>
+          </h3>
+         
+        </div>
+        <div class="group relative">
+          <div class="relative h-80 w-full overflow-hidden rounded-lg bg-white sm:aspect-h-1 sm:aspect-w-2 lg:aspect-h-1 lg:aspect-w-1 group-hover:opacity-75 sm:h-64">
+            <img src="https://th.bing.com/th/id/R.3976c10b69849bf657f083045eeb7e7d?rik=YG%2bW0bJBSK2ivw&riu=http%3a%2f%2fwww.lovethispic.com%2fuploaded_images%2f144955-High-Fashion-Lifestyle.jpg&ehk=NxncVY%2bGwd7lGJfl%2b69vUn1W2XrzGB8RSfkFhMmbFaM%3d&risl=&pid=ImgRaw&r=0" alt="Fashion & Lifestyle" class="h-full w-full object-cover object-center">
+          </div>
+          <h3 class="mt-6 text-sm text-gray-500">
+            <a href="#">
+              <span class="absolute inset-0"></span>
+              Fashion & Lifestyle
+            </a>
+          </h3>
+         
+        </div>
+        <div class="group relative">
+          <div class="relative h-80 w-full overflow-hidden rounded-lg bg-white sm:aspect-h-1 sm:aspect-w-2 lg:aspect-h-1 lg:aspect-w-1 group-hover:opacity-75 sm:h-64">
+            <img src="https://th.bing.com/th/id/OIP.4ieJC4CgwcpUNnIVebq8iwHaE7?rs=1&pid=ImgDetMain" alt="Nature" class="h-full w-full object-cover object-center">
+          </div>
+          <h3 class="mt-6 text-sm text-gray-500">
+            <a href="#">
+              <span class="absolute inset-0"></span>
+              Nature
+            </a>
+          </h3>
+         
+        </div>
+        <div class="group relative">
+          <div class="relative h-80 w-full overflow-hidden rounded-lg bg-white sm:aspect-h-1 sm:aspect-w-2 lg:aspect-h-1 lg:aspect-w-1 group-hover:opacity-75 sm:h-64">
+            <img src="https://thoughtcatalog.com/wp-content/uploads/2014/07/shutterstock_117016681.jpg" alt="Travel" class="h-full w-full object-cover object-center">
+          </div>
+          <h3 class="mt-6 text-sm text-gray-500">
+            <a href="#">
+              <span class="absolute inset-0"></span>
+              Travel
+            </a>
+          </h3>
+         
+        </div>
+        <div class="group relative ">
+          <div class="relative h-80 w-full overflow-hidden rounded-lg bg-white sm:aspect-h-1 sm:aspect-w-2 lg:aspect-h-1 lg:aspect-w-1 group-hover:opacity-75 sm:h-64">
+            <img src="https://th.bing.com/th/id/OIP.sqDOqa4pSmF8kyG64eHB_wHaE7?rs=1&pid=ImgDetMain" alt="Cars" class="h-full w-full object-cover object-center">
+          </div>
+          <h3 class="mt-6 text-sm text-gray-500">
+            <a href="#">
+              <span class="absolute inset-0"></span>
+              Education
+            </a>
+          </h3>
+        
+        </div>
+        <div class="group relative ">
+          <div class="relative h-80 w-full overflow-hidden rounded-lg bg-white sm:aspect-h-1 sm:aspect-w-2 lg:aspect-h-1 lg:aspect-w-1 group-hover:opacity-75 sm:h-64">
+            <img src="https://th.bing.com/th/id/OIP.IeVGEpKL7jrrJEavM73IogHaEk?rs=1&pid=ImgDetMain" alt="Cars" class="h-full w-full object-cover object-center">
+          </div>
+          <h3 class="mt-6 text-sm text-gray-500">
+            <a href="#">
+              <span class="absolute inset-0"></span>
+              Technology
+            </a>
+          </h3>
+        
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="bg-gray-100">
+  <div class="mx-auto max-w-7xl px-2 sm:px-2 lg:px-12">
+    <div class="mx-auto max-w-2xl py-16 sm:py-24 lg:max-w-none lg:py-2">
+      <h2 class="text-2xl font-bold text-gray-900">Recent Blogs</h2>
+        <div class="mt-6 space-y-12 lg:grid lg:grid-cols-6 lg:gap-x-6 lg:space-y-0">
+          {{#each recentBlogs}}
+        <div class="group relative">
+          <div class="relative h-80 w-full overflow-hidden rounded-lg bg-white sm:aspect-h-1 sm:aspect-w-2 lg:aspect-h-1 lg:aspect-w-1 group-hover:opacity-75 sm:h-64">
+            <img src="{{image}}" alt="{{title}}" class="h-full w-full object-cover object-center">
+          </div>
+          <h3 class="mt-6 text-sm text-gray-500">
+            <a href="user-blog/{{_id}}">
+              <span class="absolute inset-0"></span>
+              {{title}}
+            </a>
+          </h3>
+          
+        </div>
+        {{/each}}
+     
+        <div class="group relative">
+          <div class="relative h-80 w-full overflow-hidden rounded-lg  sm:aspect-h-1 sm:aspect-w-2 lg:aspect-h-1 lg:aspect-w-1 group-hover:opacity-75 sm:h-64 bg-gray-100">
+            
+          <a href="all"><h1 class="text-center my-5">View All</h1></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</body>
+</html>
