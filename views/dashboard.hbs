@@ -1,17 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
-</head>
-<div class="p-6 mb-2 h-1/3 my-4 w-auto  bg-zinc-400 text-center">Dashboard</div>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=\, initial-scale=1.0">
+  <title>Document</title>
+  {{!-- <link rel="stylesheet" href="dashboard.css"> --}}
+  <style>
+  *{
+    padding: 0%;
+    margin: 0%;
+}
+.dash{
+    width: 100%vh;
+    height: 70px;
+    background-color: gray;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 25px;
+}
+a{
+    text-decoration: none;
 
-<ul class="container w-32 h-screen bg-neutral-700">
+}
+
+.side_bar{
+    font-size: 35px;
+    color: black;
+    list-style: none;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+    margin-top: 5px;
+    width: 25%;
+    margin-bottom: 5px;
+}
+
+.div{
+    background-color: beige;
+  color: black;
+  margin: 100px;
+  padding: 15px;
+  width:200px;
+}
+  </style>
+</head>
+<body>
+  <div class="dash">Dashboard</div>
+<div class="flex-container">
+<ul>
     
-    <a href="all"><li class="p-6  mb-2 h-1/3 bg-zinc-400 text-center">All Blog</li></a>
-    <a href="blog"><li class="p-6 mb-2 h-1/3  bg-zinc-400 text-center">Write a blog</li></a>
-  </ul>  
+    <div class="div">
+      <a href="/blog.it/all" target="_self"><li class="side_bar">All Blog</li></a>
+    </div>
+    <div class="div">
+      <a href="/blog.it/blog" target="_self"><li class="side_bar">Write a blog</li></a>
+    </div>
+    <div class="div">
+      <a href="/blog.it/approvals" target="_self"><li class="side_bar">Notifications</li></a>
+    </div>
+    
+  </ul> 
+</div>
 </body>
 </html>

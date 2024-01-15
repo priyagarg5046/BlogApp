@@ -10,6 +10,7 @@
 
  <header class="p-3 text-bg-dark">
     <div class="container">
+        
       <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
         <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
           <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
@@ -17,7 +18,7 @@
 
         <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
           <li><a href="#" class="nav-link px-2 text-secondary">Home</a></li>
-          <li><a href="/blog.it/all" class="nav-link px-2 text-white">All Blogs</a></li>
+          <li><a href="/blog.it/myblog" class="nav-link px-2 text-white">My Blogs</a></li>
           <li><a href="/blog.it/blog" class="nav-link px-2 text-white">Write a blog</a></li>
           <li><a href="#" class="nav-link px-2 text-white">Contact Us</a></li>
           <li><a href="#" class="nav-link px-2 text-white">About</a></li>
@@ -27,8 +28,8 @@
           <input type="search" class="form-control form-control-dark text-bg-white rounded-lg" placeholder="Search..." aria-label="Search">
         </form>
         <div class="text-end">
-          <a href="/blog.it/login"><button type="button" class="btn btn-outline-light me-2">Login</button></a>
-          <a href="/blog.it/register"><button type="button" class="btn btn-warning text-white">Sign-up</button></a>
+          <a href="#"><button type="button" class="btn btn-outline-light me-2 ">Hi, {{user.username}}👤</button></a>
+          <a href="/blog.it/logout"><button type="button" class="btn btn-warning text-white">LogOut</button></a>
         </div>
       </div>
     </div>
@@ -38,10 +39,10 @@
         <img src="https://cdn.aliedwards.com/images/1af24a72f951c3ba0d9c696703c07c5c0f775f49_original.jpg?1568836811" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
       </div>
       <div class="col-lg-6">
-        <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Blogscapes: Navigating Knowledge Horizons</h1>
+          <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Blogscapes: Navigating Knowledge Horizons</h1>
         <p class="lead"> Explore our thought-provoking blogs for a deep dive into diverse topics. Uncover insights, gain perspective, and stay informed. In a world of constant change, our blogs serve as your compass, guiding you through the complexities and keeping you ahead in knowledge and awareness.</p>
         <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-          <a href="/blog.it/login"><button type="button" class="btn btn-primary btn-lg px-4 me-md-2 text-white bg-slate-900 mt-4">Create a blog</button></a>
+          <a href="/blog.it/blog"><button type="button" class="btn btn-primary btn-lg px-4 me-md-2 text-white bg-slate-900 mt-4">Create a blog</button></a>
           
         </div>
       </div>
